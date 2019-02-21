@@ -7,6 +7,7 @@ The purpose of this is to keep the team and the codebase organized, consistent, 
 - [Code Editor Extensions](#code-editor-extensions)
 - [Placeholders](#placeholders)
 - [Image Compression](#image-compression)
+- [Pagespeed](#pagespeed)
 
 ## Code Editor Extensions
 This section lists extensions which are available for most code editors, primarily Visual Studio Code editor.
@@ -32,3 +33,8 @@ This section lists extensions which are available for most code editors, primari
 ## Image Compression
 - [Compressor.io](https://compressor.io/) - Always swore by this site. Really wish it had an API or that I could purchase it.
 - [Squoosh](https://squoosh.app/) - Google's public image compressor. Has more options than compressor.io.
+
+## Pagespeed
+- [GTmetrix](https://gtmetrix.com/) - A lot of detail in the resulting report for the testing sites. Lots of options to run the tests including ad blocker, white/blacklisting resources URls, location test, waterfall. An account is required for some features but accounts are free.
+- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Google's tool to help you clean up your act but will ding your score for Google Analytics and other resources they provide. Definitely use this tool to get a higher score because this is one of the most popular tools that non-dev people will test against.
+- [Pingdom Website Speed Test](https://tools.pingdom.com/) - Pingdom's reporting tool.
