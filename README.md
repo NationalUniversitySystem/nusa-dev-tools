@@ -5,6 +5,7 @@ The purpose of this is to keep the team and the codebase organized, consistent, 
 
 ## Table of Contents
 - [Code Editor Extensions](#code-editor-extensions)
+- [Placeholders](#placeholders)
 
 ## Code Editor Extensions
 This section lists extensions which are available for most code editors, primarily Visual Studio Code editor.
@@ -21,3 +22,8 @@ This section lists extensions which are available for most code editors, primari
 - [SASS](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented) - Supported for indented SASS.
 - [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - Real time code collaboration, so like Google docs but for code. Ever need help from a team member outside the office? Forget screenshots, use this.
 - [WordPress Snippet](https://marketplace.visualstudio.com/items?itemName=tungvn.wordpress-snippet) - Gives you suggestions for WP Snippets as you type, in case you forget any of them but remember partial function names.
+
+## Placeholders
+- [placeholder.com](https://placeholder.com/) - Most basic of placeholder images. For such uses as wireframing or quickly mocking up a dev site.
+- [Lorem Picsum](https://picsum.photos/) - As their site says, Lorem Ipsum... but for photos.
+- [Unsplash Source](https://source.unsplash.com/) - Like the above but official to Unsplash.com.
