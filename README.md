@@ -6,6 +6,7 @@ The purpose of this is to keep the team and the codebase organized, consistent, 
 ## Table of Contents
 - [Code Editor Extensions](#code-editor-extensions)
 - [Placeholders](#placeholders)
+- [Image Compression](#image-compression)
 
 ## Code Editor Extensions
 This section lists extensions which are available for most code editors, primarily Visual Studio Code editor.
@@ -27,3 +28,7 @@ This section lists extensions which are available for most code editors, primari
 - [placeholder.com](https://placeholder.com/) - Most basic of placeholder images. For such uses as wireframing or quickly mocking up a dev site.
 - [Lorem Picsum](https://picsum.photos/) - As their site says, Lorem Ipsum... but for photos.
 - [Unsplash Source](https://source.unsplash.com/) - Like the above but official to Unsplash.com.
+
+## Image Compression
+- [Compressor.io](https://compressor.io/) - Always swore by this site. Really wish it had an API or that I could purchase it.
+- [Squoosh](https://squoosh.app/) - Google's public image compressor. Has more options than compressor.io.
