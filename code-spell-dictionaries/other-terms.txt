@@ -1,0 +1,11 @@
+pdfs
+leituranews
+Gangaram
+SDSU
+vassh
+gdpr
+optimizely
+lycos
+duckduckgo
+bing
+jquery

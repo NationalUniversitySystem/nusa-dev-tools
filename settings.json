@@ -1,0 +1,23 @@
+{
+    // Spelling Settings
+    "cSpell.language": "en",
+    "cSpell.allowCompoundWords": true,
+    "cSpell.dictionaryDefinitions": [
+        { "name": "wordPressTerms", "path": "/Users/path/to/code-spell-dictionaries/wordpress-terms.txt" },
+        { "name": "phpTerms", "path": "/Users/path/to/code-spell-dictionaries/php-terms.txt" },
+        { "name": "mysqlTerms", "path": "/Users/path/to/code-spell-dictionaries/mysql-terms.txt" },
+        { "name": "htmlTerms", "path": "/Users/path/to/code-spell-dictionaries/html-terms.txt" },
+        { "name": "citiesTerms", "path": "/Users/path/to/code-spell-dictionaries/cities-terms.txt" },
+        { "name": "otherTerms", "path": "/Users/path/to/code-spell-dictionaries/other-terms.txt" },
+        { "name": "nuTerms", "path": "/Users/path/to/code-spell-dictionaries/national-university-terms.txt" }
+    ],
+    "cSpell.dictionaries": [
+        "wordPressTerms",
+        "phpTerms",
+        "mysqlTerms",
+        "htmlTerms",
+        "citiesTerms",
+        "otherTerms",
+        "nuTerms"
+    ]
+}
