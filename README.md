@@ -33,6 +33,7 @@ This section lists extensions which are available for most code editors, primari
 ## Image Compression
 - [Compressor.io](https://compressor.io/) - Always swore by this site. Really wish it had an API or that I could purchase it.
 - [Squoosh](https://squoosh.app/) - Google's public image compressor. Has more options than compressor.io.
+- [SVGOMG](https://jakearchibald.github.io/svgomg/) - SVG Optimizer is a tool for optimizing SVG vector graphics files.
 
 ## Pagespeed
 - [GTmetrix](https://gtmetrix.com/) - A lot of detail in the resulting report for the testing sites. Lots of options to run the tests including ad blocker, white/blacklisting resources URls, location test, waterfall. An account is required for some features but accounts are free.
