@@ -9,3 +9,4 @@ lycos
 duckduckgo
 bing
 jquery
+phpcs
