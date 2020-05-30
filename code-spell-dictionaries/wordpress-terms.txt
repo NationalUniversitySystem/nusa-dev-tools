@@ -6,9 +6,6 @@ cpts
 customizer
 dashicons
 enqueues
-gfield
-gform
-gforms
 kses
 metabox
 metaboxes
@@ -23,8 +20,10 @@ shortcode
 submenu
 subpackage
 tagcloud
+tinymce
 trailingslashit
 unslash
+wlwmanifest
 wpcom
 wpdb
 WPINC

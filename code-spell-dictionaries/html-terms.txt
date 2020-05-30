@@ -4,3 +4,9 @@ ntilde
 rdquo
 rsquo
 describedby
+divs
+vmin
+vmax
+dpcm
+dppx
+mrkdwn
