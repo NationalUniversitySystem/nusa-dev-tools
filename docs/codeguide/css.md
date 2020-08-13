@@ -1,0 +1,47 @@
+# CSS / SASS Codeguide
+
+## Syntax
+
+- Use soft tabs with two spaces. (Should be set up in the project's `.editorconfig` file.)
+- When grouping selectors, keep individual selectors to a single line.
+- Include one space before the opening brace of declaration blocks for legibility.
+- Place closing braces of declaration blocks on a new line.
+- Include one space after `:` for each declaration.
+- Each declaration should appear on its own line for more accurate error reporting.
+- End all declarations with a semi-colon.
+- Comma-separated property values should include a space after each comma (e.g., `box-shadow`).
+- Include spaces after commas _within_ `rgb()`, `rgba()`, `hsl()`, `hsla()`, or `rect()` values, but do not include a space after the initial paranthesis nor before the closing parenthesis.
+- Don't prefix property values or color parameters with a leading zero (e.g., `.5` instead of `0.5` and `-.5px` instead of `-0.5px`).
+- Lowercase all hex values, e.g., `#fff`. Lowercase letters are much easier to discern when scanning a document as they tend to have more unique shapes.
+- Use shorthand hex values where available, e.g., `#fff` instead of `#ffffff`.
+- Quote attribute values in selectors with single quotes, e.g., `input[type='text']`. [They’re only optional in some cases](http://mathiasbynens.be/notes/unquoted-attribute-values#css), and it’s a good practice for consistency with our SASS guidelines.
+- Avoid specifying units for zero values, e.g., `margin: 0;` instead of `margin: 0px;`.
+- Use double colons `::` for [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements). This distinguishes pseudo-classes from pseudo-elements.
+
+```css
+/* Bad CSS */
+.selector, .selector-secondary, .selector[type=text], .selector:before {
+  padding:15px;
+  margin:0px 0px 15px;
+  background-color:rgba(0, 0, 0, 0.5);
+  box-shadow:0px 1px 2px #CCC,inset 0 1px 0 #FFFFFF}
+
+/* Good CSS */
+.selector,
+.selector-secondary,
+.selector[type='text'],
+.selector::before {
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+```
+
+## Linter
+We utilize [stylelint](https://stylelint.io/). A few of our repos or themes have legacy code which uses [sass-lint](https://github.com/sasstools/sass-lint).
+By all means, if you have the time go ahead and update those repos and themes.
+
+### Linter rules
+Dot files in our knowledge hub should include the `.stylelintrc.js` that should be used across all projects.
+This file is a set of rules that are not necessarily set in stone. Team members should keep an open mind and understanding that the web itself, standards, and ideas all change and so if anyone has feedback, better implementation methods, etc for the linter then please do mention it or brainstorm on it with team members.

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NUSA Codeguide</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+  <style>
+    * {
+      --theme-color: #2d7dd2;
+    }
+    section.cover {
+      color: #fff;
+    }
+    section.cover img {
+      filter: brightness(0) invert(1);
+    }
+    section.cover .anchor span {
+      color: #fff;
+    }
+    section.cover .cover-main > p:last-child a {
+      border-color: #173761;
+      color: #fff;
+      font-weight: 700;
+    }
+    section.cover .cover-main > p:last-child a:last-child {
+      background-color: #173761;
+    }
+    section.cover p + ul {
+      margin-top: -1em;
+    }
+    .markdown-section ul.task-list > li {
+      list-style-type: unset;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading docs...</div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: '',
+      loadSidebar: true,
+      coverpage: true,
+      // onlyCover: true,
+      auto2top: true,
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+</body>
+</html>
