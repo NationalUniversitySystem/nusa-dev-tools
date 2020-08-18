@@ -34,16 +34,16 @@ Tools and habits developed over the years.
 	- Helps learn how code blocks, functions, etc actually work and to keep the code as clean as possible.
 	- It is recommend splitting your code editor into two columns and having the project's `debug.log`.
 	- If you're using the [custom-site-template](https://github.com/Varying-Vagrant-Vagrants/custom-site-template.git) with VVV, there is also custom option for `wpconfig_constants` that will allow adding the constants below while Vagrant provisions your project.
-```php
-define( 'WP_ENV', 'local' );
-define( 'VIP_GO_ENV', 'local' );
+	```php
+	define( 'WP_ENV', 'local' );
+	define( 'VIP_GO_ENV', 'local' );
 
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_DISPLAY', true );
-define( 'WP_DEBUG_LOG', true );
-define( 'SCRIPT_DEBUG', true );
+	define( 'WP_DEBUG', true );
+	define( 'WP_DEBUG_DISPLAY', true );
+	define( 'WP_DEBUG_LOG', true );
+	define( 'SCRIPT_DEBUG', true );
 
-define( 'SAVEQUERIES', true );
-define( 'MEDIA_TRASH', true );
-define( 'WP_POST_REVISIONS', 5 );
-```
+	define( 'SAVEQUERIES', true );
+	define( 'MEDIA_TRASH', true );
+	define( 'WP_POST_REVISIONS', 5 );
+	```
