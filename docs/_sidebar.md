@@ -6,8 +6,9 @@
 		- [WordPress](codeguide/wordpress.md)
 	- **Workflows**
 		- [Release Procedures](workflows/release.md)
-		- [Email Builds](workflows/email.md)
 		- [Plugin Updates](workflows/plugin-updates.md)
+		- [Local Environment Import](workflows/local-environment-import.md)
+		- [Email Builds](workflows/email.md)
 		- [Program Updates](workflows/program-updates.md)
 	- **Tools**
 		- [Code Editor Extensions](tools/code-editor-extensions.md)
