@@ -30,7 +30,7 @@ The following steps are based on the [Email Project Schedule Breakdown](https://
 				- NCU & CityU: Marissa || Denisse
 				- Sanford: Kirsten || Danielle
 		- **Notifications**: yourself, Juvi, Lynda, & the selected people from options above.
-		- **File name**: {Job-Number}\_{Job-Name}\_{Review-Round-Name} (i.e. 20-NU-1234_Email-Name_Internal Review)
+		- **File name**: {Job-Number}\_{Job-Name}\_{Review-Round-Name} (i.e. 20-NU-1234_Email-Name_Internal-Review)
 	- [ ] Client - Review
 		- **Deliverable name**: Design Proof: Client Review
 		- **Approval list**:
