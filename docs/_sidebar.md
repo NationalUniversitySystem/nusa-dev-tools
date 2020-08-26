@@ -10,6 +10,7 @@
 		- [Local Environment Import](workflows/local-environment-import.md)
 		- [Email Builds](workflows/email.md)
 		- [Program Updates](workflows/program-updates.md)
+		- [Partnership Pages](workflows/partnership-pages.md)
 	- **Tools**
 		- [Code Editor Extensions](tools/code-editor-extensions.md)
 		- [Resources](tools/resources.md)
