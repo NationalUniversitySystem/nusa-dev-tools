@@ -1,0 +1,5 @@
+- no reverse proxy
+- in addition to the initial domain, request all testing environments (`preprod` and `develop`)
+- to avoid lengthy names:
+	- specify the repo name
+	- specify prefix subdomain for sites (nusaweb-dev.go-vip.net and www-nusaweb-dev.go-vip.net)
