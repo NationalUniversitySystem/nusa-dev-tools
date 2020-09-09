@@ -22,6 +22,7 @@ If a program is being moved from one department to another, please be mindful of
 - In the WP admin for www.nu.edu, set the program's status to "Draft".
 - Add a redirect from the program to it's parent **Department** (SEO!).
 - If the program belongs to the school **Workforce Education Solutions Training & Development** (WES T&D), previously known as Extended Learning, then please also remove it from the field of program options in the form that is specific to WES T&D / EL.
+- Remove any references to the program by doing a search for the full name of the program, and any known abbreviations, in the admin search(s). "Known abbreviations" include MA {program name} and M.A. {program name} for Master of Arts, RN for Registered Nurse, MBA for Master of Business Administration, etc.
 - Draft the program in the `info` subdomain as well.
 - Update the [Google Sheet](https://docs.google.com/spreadsheets/d/1p6620uGHOfmMa74E8X6vRXxZCVzLto72sg2p_5ESDtU/edit?pli=1).
 
