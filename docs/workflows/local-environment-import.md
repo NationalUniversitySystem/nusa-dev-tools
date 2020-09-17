@@ -27,10 +27,15 @@ Here are some helpful steps and info to import a WPVIP site's database (DB) into
 	- This needs to be done while inside the Vagrant VM.
 	- First a dry run to confirm there will be data replaced `wp search-replace old-site.com new-site.dev --dry-run`
 	- Then run without the `--dry-run` flag.
-	- If multisite imports were done, remember to use the `--url=subdomain.url.tld` flag.
+	- If the import of a site that is part of a multisite installation, remember to use one of the following flags:
+		- `--url=subdomain.url.tld` if the site being imported is _not_ the main top site (blog ID = 1).
+		- `--network` if importing multiple sites and need to replace on all registered to `$wpdb`.
+		- `--all-tables-with-prefix` flag for all the tables with the predefined prefix (usually `wp_`).
+		- If all else fails, `--all-tables` for literally _all tables_ in the DB.
+		- For more information, visit the [WP CLI docs](https://developer.wordpress.org/cli/commands/search-replace/).
 - Some SQL queries and DB modifications need to be done on the local DB now.
 	- Update the authors in _all_ your `wp_posts` tables (`wp_posts`, `wp_2_posts`, etc) `UPDATE wp_posts SET post_author = 1 WHERE post_author <> 1;`
-	- If this your local site setup is a multisite, the row where `meta_key` column is "site_admins" in the `wp_sitemeta` table will need to be updated to include your local username, or fully replaced. Use any online tool to unserialize the data (it is an array of user names), add your username or replace completely, and then serialize back to place in the corresponding `meta_value` column.
+	- If your local site setup is a multisite, the row where `meta_key` column is "site_admins" in the `wp_sitemeta` table will need to be updated to include your local username, or fully replaced. Use any online tool to unserialize the data (it is an array of user names), add your username or replace completely, and then serialize back to place in the corresponding `meta_value` column.
 - Tip: At this point run `wp cache flush` while SSH'ed into the Vagrant VM and in the proper folder.
 - Tip: VaultPress does not immediately provide a back up of the `uploads/` folder and therefore all media. To make things easier and not request a full backup of that folder from WPVIP, we use a custom option in **VVV** that will fetch the source environment's files if missing locally. Add the live URL to the vagrant custom option of your local setup and run `vagrant provision` command.
 ```yml
