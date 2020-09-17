@@ -26,24 +26,24 @@ The following steps are based on the [Email Project Schedule Breakdown](https://
 			- Design: Alicia
 			- CE Email: Lizzy || April
 			- Account Manager:
-				- NU, NUS & NUVHS: Jordan
+				- NU, NUS & NUVHS: Jordan || Gabby
 				- NCU & CityU: Marissa || Denisse
 				- Sanford: Kirsten || Danielle
-		- **Notifications**: yourself, Juvi, Lynda, & the selected people from options above.
+		- **Notifications**: yourself, Juvi, Lynda || Megan, & the selected people from options above.
 		- **File name**: {Job-Number}\_{Job-Name}\_{Review-Round-Name} (i.e. 20-NU-1234_Email-Name_Internal-Review)
 	- [ ] Client - Review
 		- **Deliverable name**: Design Proof: Client Review
 		- **Approval list**:
-			- NU, NUS & NUVHS: Jordan
+			- NU, NUS & NUVHS: Jordan || Gabby
 			- NCU & CityU: Marissa || Denisse
 			- Sanford: Kirsten || Danielle
-		- **Notifications**: yourself, Juvi, Lizzy || April, Lynda, Alicia, whoever wrote the copy, & the person from option above.
+		- **Notifications**: yourself, Juvi, Lizzy || April, Lynda || Megan, Alicia, whoever wrote the copy, & the person from option above.
 		- **File name**: {Job-Number}\_{Job-Name}\_{Review-Round-Name} (i.e. 20-NU-1234_Email_Name_Client-Review)
 	- [ ] Final Proofread - Review
 		- **Deliverable name**: Design Proof: Final Proofread
 		- **Approval list**:
 			- Whoever DIDN’T write the copy. Person should be the one who's assigned for this task on the "Schedule" tab.
-		- **Notifications**: yourself, Juvi, Lynda, whoever wrote the copy, & the person from option above.
+		- **Notifications**: yourself, Juvi, Lynda || Megan, whoever wrote the copy, & the person from option above.
 		- **File name**: {Job-Number}\_{Job-Name}\_{Review-Round-Name} (i.e. 20-NU-1234_Email_Name_Final-Proofread)
 - [ ] Test email template on [Acid](https://www.emailonacid.com/) (fix issues)
 	- Use the name of the project for the *subject line* so it is easy to reference in the future.
