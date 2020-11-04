@@ -11,6 +11,8 @@
 - [A360 Docs](https://hub.accessible360.com/kb/articles) (must be logged in)
 - [a11y Project](https://www.a11yproject.com/)
 
+---
+
 ## Tools
 
 ### Accessibility Testing Browser Plugins
@@ -22,8 +24,8 @@
 - [Web Accessibility](https://marketplace.visualstudio.com/items?itemName=MaxvanderSchee.web-accessibility)
 
 ### Screen Readers
-[NVDA](https://www.nvaccess.org/download/) - Free, PC Only
-[JAWS](https://support.freedomscientific.com/Downloads/JAWS) - Free, PC Only
+- [NVDA](https://www.nvaccess.org/download/) - Free, PC Only
+- [JAWS](https://support.freedomscientific.com/Downloads/JAWS) - Free, PC Only
 
 ---
 
@@ -64,7 +66,7 @@ Any use of `tabindex` is _highly_ discouraged, unless you have a very specific r
 ### Forms
 All form fields _must_ have a corresponding `<label>`, with the appropriate attributes. Even if the `<label>` is not needed visually (not best practice), it should still exist, just with a class of `.sr-only` added.
 
-Example:
+#### Example:
 ```html
 <label for="fname">First Name</label>
 <input type="text" id="fname" name="fname">
@@ -108,7 +110,7 @@ The image does not have an `alt` attribute (`alt=""`). **It’s important all im
 
 If the image is part of a link, the `alt` text should include what action the link will induce.
 
-Example:
+#### Example:
 ```html
 <a href="/apply-now" target="_blank">
   <img src="images/apply-image.png" alt="Visit the apply now page!">
