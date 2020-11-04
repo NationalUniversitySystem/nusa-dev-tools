@@ -62,8 +62,6 @@ Most often, when implementing nested navigation, we show the child `<ul>` on `:h
 Any use of `tabindex` is _highly_ discouraged, unless you have a very specific reason for doing so. By using `tabindex`, you destroy the native keyboard navigation of the site and open the door for confusion.
 
 ### Forms
-
-#### Labels
 All form fields _must_ have a corresponding `<label>`, with the appropriate attributes. Even if the `<label>` is not needed visually (not best practice), it should still exist, just with a class of `.sr-only` added.
 
 Example:
