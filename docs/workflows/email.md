@@ -26,7 +26,7 @@ The following steps are based on the [Email Project Schedule Breakdown](https://
 			- Design: Alicia
 			- CE Email: Lizzy || April
 			- Account Manager:
-				- NU, NUS & NUVHS: Jordan || Gabby
+				- NU, NUS & NUVHS: Gabby
 				- NCU & CityU: Marissa || Denisse
 				- Sanford: Kirsten || Danielle
 		- **Notifications**: yourself, Juvi, Lynda || Megan, & the selected people from options above.
@@ -34,7 +34,7 @@ The following steps are based on the [Email Project Schedule Breakdown](https://
 	- [ ] Client - Review
 		- **Deliverable name**: Design Proof: Client Review
 		- **Approval list**:
-			- NU, NUS & NUVHS: Jordan || Gabby
+			- NU, NUS & NUVHS: Gabby
 			- NCU & CityU: Marissa || Denisse
 			- Sanford: Kirsten || Danielle
 		- **Notifications**: yourself, Juvi, Lizzy || April, Lynda || Megan, Alicia, whoever wrote the copy, & the person from option above.
