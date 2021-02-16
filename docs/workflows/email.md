@@ -10,7 +10,7 @@
 ## Steps
 The following steps are based on the [Email Project Schedule Breakdown](https://docs.google.com/spreadsheets/d/1-YDvSdWL7-4Rg9_A_a0Sr51ORVJpds756IwNvv0iFI4/edit#gid=0):
 - [ ] Receive copy from Copy team member through Jig.
-- [ ] Choose affiliate and type of HTML template is needed or referenced job# on Marcom3/Google Drive/Workamajig.
+- [ ] Choose affiliate and type of HTML template is needed or referenced job# on Google Drive/Workamajig.
 - [ ] Upload images to ELQ (ELQ login > components > images).
 - [ ] Email development
 	- Suggested [VS Code](https://code.visualstudio.com/) extension for realtime preview: [HTML Realtime Preview](https://marketplace.visualstudio.com/items?itemName=ty4z2008.html-preview#review-details).
