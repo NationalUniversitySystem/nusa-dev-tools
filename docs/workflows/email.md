@@ -10,7 +10,7 @@
 ## Steps
 The following steps are based on the [Email Project Schedule Breakdown](https://docs.google.com/spreadsheets/d/1-YDvSdWL7-4Rg9_A_a0Sr51ORVJpds756IwNvv0iFI4/edit#gid=0):
 - Use copy deck from Copy team member that should be tagged for dev in Jig.
-- Choose affiliate and type of HTML template is needed or referenced job# on Google Drive/Workamajig.
+- Choose affiliate and type of HTML template that is needed or referenced job # on Google Drive/Workamajig. References for templates can be found in the [Email Templates Google sheet](https://docs.google.com/spreadsheets/d/1iidUG-57gmt0lOa988mLr1Ilt1ThcGN29fJQzQr54yc/edit#gid=1872926667).
 - Email template development:
 	- Add template as new folder in the [email-dev](https://github.com/NationalUniversitySystem/email-dev) repo.
 	- Add/Delete what snippets will be needed base on copy.
