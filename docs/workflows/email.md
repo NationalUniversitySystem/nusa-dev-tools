@@ -17,7 +17,6 @@ The following steps are based on the [Email Project Schedule Breakdown](https://
 	- [ ] Add/Delete what snippets will be needed base on copy.
 	- [ ] Add the copy from the deck into the correct snippets within the HTML template.
 	- [ ] Update HTML email template to add images.
-- [ ] Once HTML email is done, convert to PDF: https://www.sejda.com/html-to-pdf
 - Workamajig Proofs
 	- [ ] Template Internal Review (CE_AS Internal Review)
 		- **Deliverable name**: Design Proof: Template Internal Review
