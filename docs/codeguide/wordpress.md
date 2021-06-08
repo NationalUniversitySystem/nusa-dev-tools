@@ -63,3 +63,16 @@ add_action( 'wp_enqueue_scripts', function() {
 	- Example: "louis g. in class room"
 	- If you were not provided with the image subject's name, ask for it from the design team or find on [Photoshelter](https://natuniv.photoshelter.com/index).
 	- Optimize the image through some of our online tools or Photoshop for web settings with 80-90 percent judging your best for un-noticeable pixelation.
+
+### URL Slugs
+WP automatically generates a slug for pages. Sometimes you may receive a copy deck that has a lengthy Title (h1) which would end up having an automatically generated slug of 5+ words. This is bad UX for several reasons. That may include trying to type, write, or say the link and SEO purposes.
+You can edit the WP generated slug to the requested one, _or_ if none was requested and it's a long URL, shorten it to keyword of the title or the content.
+
+This should be applied to any type of website, not just WP.
+
+Although this should be common knowledge as part of dev, we are also a team with beginners into the web dev world.
+There are also a lot of resources online and therefore that can be looked up online.
+A few examples:
+- https://yoast.com/slug/
+- https://prettylinks.com/url-slugs-and-how-to-use-them/
+- https://webmasters.stackexchange.com/a/68425
