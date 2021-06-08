@@ -4,6 +4,7 @@
 ### Hooks
 There are two types of hooks in WordPress, filters and actions.
 - "Filters" must return something. You are literally filtering an existing object, value, array, etc. It might be an empty string or array, but the filter and it's parameters will be passing something to it.
+
 ```php
 /**
  * Manipulate or trigger code based on the context of the content.
@@ -16,6 +17,7 @@ add_filter( 'the_content', function( $the_content ) {
 }, 10, 1 );
 ```
 - "Actions" do not return anything specific, can have returns to escape the function/method like in a return pattern.
+
 ```php
 /**
  * Manipulate or trigger code based on the context of the content.
