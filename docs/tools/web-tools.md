@@ -13,8 +13,9 @@ Collection of sites around the web to use during the whole code development proc
 - [Unsplash Source](https://source.unsplash.com/) - Like the above but official to Unsplash.com.
 
 ## Image Compression
-- [Compressor.io](https://compressor.io/) - Always swore by this site. Really wish it had an API or that I could purchase it.
 - [Squoosh](https://squoosh.app/) - Google's public image compressor. Has more options than compressor.io.
+- [Compress Image Online](https://compressimage.io/) - New comer (at time of initial commit). Compares itself to Compressor.io and it is Browser based so images are not sent to any servers.
+- [Compressor.io](https://compressor.io/) - Always swore by this site. Really wish it had an API or that I could purchase it.
 - [SVGOMG](https://jakearchibald.github.io/svgomg/) - SVG Optimizer is a tool for optimizing SVG vector graphics files.
 
 ## Pagespeed
