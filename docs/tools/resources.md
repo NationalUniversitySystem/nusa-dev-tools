@@ -8,7 +8,7 @@ Ever growing list of resources for, but not limited to, learning and keeping up 
 - [Ladybug Podcast](https://www.ladybug.dev/) — Discussion based podcast about tech topics, mainly leaning towards web development.
 - [Smashing Podcast](https://podcast.smashingmagazine.com/) — Smashing Magazine's podcast. Talks with design and development experts with a bit of article catch up.
 - [Thought Feeder](https://thoughtfeederpod.com/) — Podcast by NUSA friend Joel Goodman and his co-host Jon-Stephen Stansel! Discussions that center on higher-ed digital marketing (our main focus in our agency).
-- [Today in Digital Marketing](https://todayindigital.com/) — Self description: fFast-paced rundown of what you missed in the world of digital marketing and social media.
+- [Today in Digital Marketing](https://todayindigital.com/) — Self description: Fast-paced rundown of what you missed in the world of digital marketing and social media.
 
 ## Misc.
 - [A Book Apart](https://abookapart.com/) — Team members have copies of several of the books both printed and digital. Although it is ok to share, it is encouraged to purchase a copy of highly interested topics to support the authors.
