@@ -54,12 +54,12 @@ For example, let's say we've clicked a "Read More" button that triggers a modal 
 
 You'll need to manually set the focus inside the newly opened modal, and once it's there, do not let it `TAB` out of the modal until the user has explicitly pressed the close button or `ESC` key. Hence the term "Focus _Trapping_ - we trap the focus in a loop inside of the modal.
 
-[Example focus trapping script for Bootstrap 4 modals](https://github.com/wpcomvip/sanfordharmony-org/blob/master/themes/harmony/src/js/accessibility/modal-focus.js)
+**Note:** Boostrap v4 modals do this natively *if the standard markup is used*.
 
 ### Nested Navigation Not Accessible via Keyboard
 Most often, when implementing nested navigation, we show the child `<ul>` on `:hover` of the parent `<li>`/`<a>`. While this works fine for mouse users, this renders the hidden nested menus unreachable for keyboard users. Like the above issue, this requires a custom JavaScript implementation.
 
-[Example nested menu keyboard navigation script](https://github.com/wpcomvip/sanfordharmony-org/blob/master/themes/harmony/src/js/accessibility/nested-navigation.js)
+[Example nested menu keyboard navigation script](https://github.com/wpcomvip/nusystem-org/blob/master/themes/nusystem/src/js/theme/navigation/sub-menus.js)
 
 ### Using `tabindex`
 Any use of `tabindex` is _highly_ discouraged, unless you have a very specific reason for doing so. By using `tabindex`, you destroy the native keyboard navigation of the site and open the door for confusion.
@@ -118,9 +118,6 @@ If the image is part of a link, the `alt` text should include what action the li
 </a>
 ```
 
-Pro-tip:
-- End the alt-text with a period. This makes screen readers pause a bit after the last word in the alt-text, creating a natural pause before the next bit of text.
-
 ### Images Containing Text
 We should, under no circumstances use images that contain text, large or small. All text should be live, using a background-image if needed.
 
@@ -129,6 +126,6 @@ The page contains two or more `HTML5` or `WAI-ARIA` landmarks of the same type t
 
 There are three ways to label a sectioning element:
 - Method 1: Add an `aria-label` attribute
-- Method 2: Use an `aria-labelledby` attribute
-
+- Method 2: Add a `<h#>` element to it
+- Method 3: Use an `aria-labelledby` attribute
 [You need to label your sections. Here are three methods.](https://css-tricks.com/how-to-section-your-html/#you-need-to-label-your-sections-here-are-three-methods)
