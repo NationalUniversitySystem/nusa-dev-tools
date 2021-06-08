@@ -22,6 +22,9 @@ Some examples:
 
 ## Tips to live/code by
 - Try to do things correctly the first time. Ask yourself, when was the last time you went back and refactored a project's code?
+- It's not necessary to be "clever" with your code. code should be optimized to be read by devs in the future, including yourself.
+> “Programs are meant to be read by humans and only incidentally for computers to execute.”
+> - Donald Knuth, The Art of Computer Programming.
 
 ## Comments
 Code itself should be readable and comments should be used to explain _why_ something is being coded (function block comments), _why_ it is happening, or a helpful reminder or explanation for future self.
