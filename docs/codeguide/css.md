@@ -38,6 +38,13 @@
 }
 ```
 
+## Best Practices
+## Gotchas
+### Margin collapse
+Avoid adding `margin-top` and `margin-bottom` on elements that are commonly found together (i.e. heading and paragraph tags). If a heading has `margin-bottom` and the paragraph has a `margin-top`, while trying to space things out the space would take the margin of the largest value.<br>
+This is known as "margin collapse" and can lead to multiple values being overwritten, unnecessary code being added, spaghetti code, and overall bad practices.<br>
+Adding both top and bottom margin to a paragraph tag also becomes redundant since they are commonly placed one after another.
+
 ## Linter
 We utilize [stylelint](https://stylelint.io/). A few of our repos or themes have legacy code which uses [sass-lint](https://github.com/sasstools/sass-lint).
 By all means, if you have the time go ahead and update those repos and themes.
