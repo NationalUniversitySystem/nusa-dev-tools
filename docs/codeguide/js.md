@@ -112,8 +112,18 @@ console.log( obj );
 ```
 * `Promise`: is an object that may produce a single value some time in the future. Either a resolved value, or a reason that it's not resolved. They allow you to defer further actions until after a previous action has completed. This is useful for setting up a sequence of async operations to work correctly.
 
-* `Async/Await functions`: async and await are extensions of promises.
-
+* `Async/Await functions`: async and await are extensions of promises. Await expressions make promise-returning functions behave as though they're synchronous by suspending execution until the returned promise is fulfilled or rejected.
+```js
+async function getPostsData() {
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+        const posts = await response.json();
+        return posts;
+    } catch (err) {
+        console.error(err);
+    }
+}
+```
 ## Helpful Resources
 
 * [Free for Dev](https://github.com/ripienaar/free-for-dev)
