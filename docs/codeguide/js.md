@@ -18,7 +18,7 @@
 * If you do `typeOf` `undefined` the value will be `undefined`, whereas the value of `null` will be an object.
 * Good code explains itself! However, comment what you consider needed - but don’t tell others your life story.
 * Make sure to write smaller, generic helper functions that fulfill one specific task rather than catch-all methods.
-* Use shortcut notations to make your code easier to read, for example: `let user = object.username || "Guest"`, Ternary Operators, and Destructuring.
+* Use shortcut notations to make your code easier to read, for example: `let user = object.username || 'Guest'`, Ternary Operators, and Destructuring.
 
 ## Use Strict Mode
 
@@ -43,15 +43,15 @@
 ## Useful Features
 * `Template Literals`: Allows for embedded expressions in a string.
 ```js
-const color = "red";
+const color = 'red';
 console.log( `Hello, my favorite color is ${color}!!` );
 // Result: Hello, my favorite color is red!!
 ```
 * `Spread Operator`: It takes in an array or object and expands it into individual elements. This operator makes copying and merging arrays a lot simpler.
 ```js
-const fruits = [ "apple", "banana", "kiwi" ];
-const basket = [ ...fruits, "orange", "strawberries"];
-// Result: [ "apple", "banana", "kiwi", "orange", "strawberries" ]
+const fruits = [ 'apple', 'banana', 'kiwi' ];
+const basket = [ ...fruits, 'orange', 'strawberries'];
+// Result: [ 'apple', 'banana', 'kiwi', 'orange', 'strawberries' ]
 ```
 * `Rest Operator`: allows a function to accept an indefinite number of arguments as an array.
 ```js
@@ -77,10 +77,10 @@ console.log( tipCalculator( 60, 15 ) );
 * `Destructuring`: makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 ```js
 let motorcycle = {
-    type: "Yamaha",
-    model: "R6",
-    color: "Blue",
-    name: "Rosalinda"
+    type: 'Yamaha',
+    model: 'R6',
+    color: 'Blue',
+    name: 'Rosalinda'
 }
 let { name } = motorcycle;
 console.log( name );
