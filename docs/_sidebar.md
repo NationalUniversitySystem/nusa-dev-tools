@@ -4,6 +4,7 @@
 		- [HTML](codeguide/html.md)
 		- [CSS](codeguide/css.md)
 		- [Accessibility](codeguide/accessibility.md)
+		- [PHP](codeguide/php.md)
 		- [WordPress](codeguide/wordpress.md)
 	- **Workflows**
 		- [Release Procedures](workflows/release.md)
