@@ -11,14 +11,13 @@
 - Update `Page Attributes`:
     - Parent: `No Parent`
     - Template: `Standard Hero Sidebar`
-    - Order: `0`
     - Request `Campaign Activity` and `Organization` field values:
         - Once page is in development, add the URL in the [NU_Partnerships_Organizational](https://docs.google.com/spreadsheets/d/1CEYuLWvMCTCFmRUPbL8ZS9cw-igYbr7VZauYH1utfhQ/edit?ts=5e7e76d5#gid=1054635506) and notify April Resurreccion (to direct a comment type `+` followed by her email address: AResurreccion@nu.edu)
         - April will add the **Organization MKT_WES** and **Campaign Activity** values in the spreadsheet and notify web dev
         - Apply these values to the `Form Setup` metabox
             - **Campaign Activity** field value
             - **Organization** field value
-    - There is no need to add a hero image. It should be automatically displayed, unless otherwise noted in the job description
+    - Unless otherwise noted in the job description, there is no need to add a hero image. It should be automatically displayed from the "parent" `/partnerships/`.
     - If you need to add the partner logo to the sidebar, create a `custom field` with the name `sidebar_content` and add any HTML you need in the value field. (i.e. `<img src="/wp-content/uploads/xxxx/xx/partner_logo.png" class="any-class-here" alt="The Partner logo.">` - **Do not forget to include the `alt` attribute.**)
     - Every added media coming from wp library itself should **NOT** include `https://www.nu.edu/` or `https://nu-edu-preprod.go-vip.co/`. It should be `src="/wp-content/uploads/.."`
 - For `Final Page Internal Upload/Review`, you need Juvanie, a copywriter, a designer, and Megan or Gabby as approvers. You can check for deadlines and approvers in the JIG task's schedule tab
